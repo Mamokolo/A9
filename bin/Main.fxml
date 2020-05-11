@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="rootAnchorPane" prefHeight="640.0" prefWidth="840.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar id="menuBar" layoutY="0.0" prefHeight="25.0" prefWidth="900.0">
+        
+      </MenuBar>
+      <VBox id="buttonList" alignment="BASELINE_CENTER" layoutX="10.0" layoutY="30.0" prefHeight="319.0" prefWidth="100.0" spacing="30.0" AnchorPane.bottomAnchor="291.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="790.0" AnchorPane.topAnchor="30.0">
+         <children>
+         	<Button id="pencilBtn" mnemonicParsing="false" />
+            <Button id="lineBtn" mnemonicParsing="false" />
+            <Button id="rectBtn" mnemonicParsing="false" />
+            <Button id="circleBtn" mnemonicParsing="false" />
+            <Button id="eraserBtn" mnemonicParsing="false" />
+            <Button id="cleanBtn" mnemonicParsing="false" text="clean" />
+         </children>
+      </VBox>
+      <Canvas id="mainCanvas" height="480.0" layoutX="150.0" layoutY="30.0" width="640.0" />
+      <Canvas id="canvas2" height="480.0" layoutX="150.0" layoutY="30.0" width="640.0" />
+      <ColorPicker id="colorPicker" layoutX="14.0" layoutY="450.0" />
+      <ChoiceBox id="lineWidthChoice" layoutX="800.0" layoutY="51.0" prefHeight="23.0" prefWidth="87.0" />
+   </children>
+</AnchorPane>
